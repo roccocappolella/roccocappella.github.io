@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Homepage</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>FIAMMA <span style="font-size: large; font-style: italic;">Italian Grill</span></h1>
+        <nav>
+            <a href="menu.html">Menu</a>
+            <a href="about.html">About Us</a>
+        </nav>
+    </header>
+    <div class="content">
+        <h3>Welcome to FIAMMA Italian Grill</h3>
+        <p>FIAMMA Italian Grill is a family-owned restaurant that has been serving the community for over 20 years. We offer a variety of authentic Italian dishes, including pasta, pizza, and seafood. Our menu features fresh ingredients and homemade sauces that are sure to satisfy your taste buds. Whether you're dining in or taking out, we look forward to serving you at FIAMMA Italian Grill.</p>
+        <img src="C:\Users\Dylan Crothers\OneDrive - The Pennsylvania State University\Documents\IST250\PartnerActivity1\outside.webp" alt="FIAMMA Italian Grill" height="400" width="600">
+    </div>
+    <form action="submit_reservation.php" method="POST">
+        <h2>Restaurant Reservation</h2>
+        
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="phone">Phone Number:</label>
+        <input type="tel" id="phone" name="phone" required>
+        
+        <label for="date">Date:</label>
+        <input type="date" id="date" name="date" required>
+        
+        <label for="time">Time:</label>
+        <input type="time" id="time" name="time" required>
+        
+        <label for="guests">Number of Guests:</label>
+        <select id="guests" name="guests" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8+</option>
+        </select>
+        
+        <label for="requests">Special Requests:</label>
+        <textarea id="requests" name="requests" rows="4"></textarea>
+        
+        <button type="submit">Submit Reservation</button>
+    </form>
+</body>
+</html>

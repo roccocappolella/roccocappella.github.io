@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Partner Activity 2</title>
+    <script src="programs.js"></script>
+    <link href = "styles.css" rel = "stylesheet">
+</head>
+<body>
+    <h1>Hello User!</h1>
+    <p>This brief message is a placeholder until you add your own.</p>
+    <form>
+        <label>Enter your name:</label>
+        <input type="text" id="userName" name="userName">
+        <br/>
+        <br/>
+
+        <label>Enter your message:</label>
+        <input type="text" id="userMessage" name="userMessage">
+        <br/>
+        <br/>
+
+        <label>Choose background color:</label>
+        <select id="bgColor" name="bgColor">
+            <option value="white">White</option>
+            <option value="lightblue">Light Blue</option>
+            <option value="lightgreen">Light Green</option>
+            <option value="lightyellow">Light Yellow</option>
+        </select>
+        <br/>
+        <br/>
+
+        <button type="button" onclick="applyChanges()">Submit</button>
+    </form>
+    <br/>
+    <h2>To Do List</h2>
+    <label>Enter a to-do item:</label>
+    <input type="text" id="todoItem" name="todoItem">
+    <button type="button" onclick="addItem()">Add</button>
+
+    <ol id="todoList"></ol>
+
+
+</body>
+</html>

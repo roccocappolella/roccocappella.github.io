@@ -1,0 +1,107 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: lightcoral;;
+}
+
+h1 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+}
+
+nav {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: 10px 0;
+}
+
+#featured-albums {
+    display: flex;
+    flex-direction: row;  
+    justify-content: center;
+    gap: 20px;
+    margin: 20px;
+}
+
+.album {
+    display: flex;
+    flex-direction: column;  
+    align-items: center;
+    padding: 10px;
+    border-radius: 8px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.album-title {
+    margin-bottom: 10px;  
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.album img {
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+
+#inventory {
+    margin: 20px auto;
+    text-align: center;
+}
+
+table {
+    margin: auto;
+    width: 50%;
+    background-color: whitesmoke;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #555;
+    text-align: center;
+}
+
+th {
+    background-color: #555;
+    color: whitesmoke;
+}
+
+footer {
+    text-align: center;
+    padding: 1px;
+    margin-top: 2px;
+}
+#about {
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 10px; 
+    margin: 10px;
+}
+
+.story, .WhyUs {
+    padding: 10px;
+    border-radius: 8px;
+    width: 45%; 
+    text-align: center;
+    filter: inherit;
+}
+
+.story h2, .WhyUs h3 {
+    margin-bottom: 10px;
+}
+
+.story p, .WhyUs p {
+    font-size: 16px;
+}
+
+#about {
+    gap: 30px;
+}

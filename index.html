@@ -10,7 +10,6 @@
 
     <link rel="canonical" href="https://getbootstrap.com/docs/5.1/examples/carousel/">
 
-    <!-- Bootstrap core CSS -->
     <link href="assets/dist/css/bootstrap.min.css" rel="stylesheet">
 
     <style>
@@ -26,10 +25,21 @@
         .bd-placeholder-img-lg {
           font-size: 3.5rem;
         }
+        .carousel-caption h1{
+  color: black;
+  font-weight: bold;
+  background-color: white;
+}
       }
+      .carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: black;
+  border-radius: 50%;
+  padding: 10px;
+}
+
     </style>
 
-    <!-- Custom styles for this template -->
     <link href="carousel/carousel.css" rel="stylesheet">
   </head>
   <body>
@@ -37,7 +47,7 @@
 <header>
   <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
     <div class="container-fluid">
-      <a class="navbar-brand" href="#">Carousel</a>
+      <a class="navbar-brand" href="#">Rocco Cappolella: IST 250 Portfolio</a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -46,64 +56,110 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Home</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled">Disabled</a>
-          </li>
         </ul>
-        <form class="d-flex">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
       </div>
     </div>
   </nav>
 </header>
 
 <main>
+<div class="container my-5">
+    <h2 class="mb-4">My Web Development Course Experience</h2>
+    <p class="mb-5">This portfolio showcases projects completed during my experience in IST 250. Throughout the course, I learned HTML, CSS, JavaScript, responsive designs, and more which is all displayed in the portfolio.</p>
+    
 
   <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="4" aria-label="Slide 5"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="6" aria-label="Slide 7"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="7" aria-label="Slide 8"></button>
+
     </div>
     <div class="carousel-inner">
       <div class="carousel-item active">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <img src="assets/brand/Screenshot 2025-04-20 at 5.25.36 PM.png" alt="Slide 1">
 
         <div class="container">
           <div class="carousel-caption text-start">
-            <h1>Example headline.</h1>
-            <p>Some representative placeholder content for the first slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+            <h1>Practice Activity 1: Simple Webpage</h1>
+            <link><a class="btn btn-lg btn-primary" href="Portfolio/Practice Activities/PrizedCollection/index.html">View Project</a></link>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <img src="assets/brand/Screenshot 2025-04-20 at 5.34.33 PM.png" alt="Slide 2">
 
         <div class="container">
           <div class="carousel-caption">
-            <h1>Another example headline.</h1>
-            <p>Some representative placeholder content for the second slide of the carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+            <h1>Practice Activity 2: CSS Transforms and Filters</h1>
+            <p><a class="btn btn-lg btn-primary" href="Portfolio/Practice Activities/Practice2/index.html">View Project</a></p>
           </div>
         </div>
       </div>
       <div class="carousel-item">
-        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <img src="assets/brand/Screenshot 2025-04-20 at 5.39.06 PM.png" alt="Slide 3">
 
         <div class="container">
           <div class="carousel-caption text-end">
-            <h1>One more for good measure.</h1>
-            <p>Some representative placeholder content for the third slide of this carousel.</p>
-            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+            <h1>Practice Activity 3: Extending Bootstrap Starter Examples</h1>
+            <p><a class="btn btn-lg btn-primary" href="Portfolio/Practice Activities/PracticeAcitivity3/jumbotron/index.html">View Project</a></p>
           </div>
         </div>
       </div>
+      <div class="carousel-item">
+        <img src="assets/brand/Screenshot 2025-04-20 at 5.44.47 PM.png" alt="Slide 4">
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Individual Assignment 3: Responsive Restaurant</h1>
+            <p><a class="btn btn-lg btn-primary" href="Portfolio/individual Assignments/IndividualAssignment3/index.html">View Project</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/brand/Screenshot 2025-04-20 at 5.46.07 PM.png" alt="Slide 5">
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Individual Assignment 2: The Record Store</h1>
+            <p><a class="btn btn-lg btn-primary" href="Portfolio/individual Assignments/IndividualProject/index.html">View Project</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/brand/Screenshot 2025-04-20 at 5.47.52 PM.png" alt="Slide 6">
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Individual Assignment 1: Selling on the Web</h1>
+            <p><a class="btn btn-lg btn-primary" href="Portfolio/individual Assignments/Lesson3Assignment1/index.html">View Project</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/brand/Screenshot 2025-04-20 at 5.49.48 PM.png" alt="Slide 7">
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Partner Lab 1: Well-Styled Website</h1>
+            <p><a class="btn btn-lg btn-primary" href="Portfolio/Partner Activities/PartnerActivity1/homepage.html">View Project</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="assets/brand/Screenshot 2025-04-20 at 5.51.22 PM.png" alt="Slide 8">
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Partner Lab 2: Interactive Website</h1>
+            <p><a class="btn btn-lg btn-primary" href="Portfolio/Partner Activities/PartnerActivity2 3/index.html">View Project</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
     </div>
     <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
       <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -116,90 +172,38 @@
   </div>
 
 
-  <!-- Marketing messaging and featurettes
-  ================================================== -->
-  <!-- Wrap the rest of the page in another container to center all the content. -->
-
-  <div class="container marketing">
-
-    <!-- Three columns of text below the carousel -->
-    <div class="row">
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
-        <h2>Heading</h2>
-        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
-        <h2>Heading</h2>
-        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-      <div class="col-lg-4">
-        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
-
-        <h2>Heading</h2>
-        <p>And lastly this, the third column of representative placeholder content.</p>
-        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
-      </div><!-- /.col-lg-4 -->
-    </div><!-- /.row -->
-
-
-    <!-- START THE FEATURETTES -->
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">First featurette heading. <span class="text-muted">It'll blow your mind.</span></h2>
-        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+   
+      
+    <div class="container my-5">
+      <div class="mb-4">
+        <h4>Practice Activities</h4>
+        <p>The practice activities in this course allowed me to further my knowledge of web development.
+          Through hands-on exercises, I learned how to create a basic webpage, learned how to use CSS,  implemented Bootstrap examples, and much more.
+        </p>
       </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
+      
+      <div class="mb-4">
+        <h4>Individual Assignments</h4>
+        <p>The individual assignments in this course let me apply the knowledge I gained through practice activities and the readings and develop it further. 
+          This allowed me to refine my ability to style the webpage with CSS,use grid layouts, and make the webpage responsive to various screens sizes. </p>
       </div>
+      
+      <div class="mb-4">
+        <h4>Partner Labs</h4>
+        <p>The partner labs in this course gave me the opportunity to apply what I learned in a collaborative setting. 
+          I developed teamwork skills by dividing tasks with my partner and combining our work to complete the webpage.
+        </p>
+      </div>
+    
+      
+      <h3 class="mb-3">What I Learned</h3>
+      <p>This course helped me develop practical web development skills that I can apply to real-world projects. Each assignment built upon previous lessons, which gave me anunderstanding of web development practices that I can use in the future.</p>
     </div>
 
-    <hr class="featurette-divider">
 
-    <div class="row featurette">
-      <div class="col-md-7 order-md-2">
-        <h2 class="featurette-heading">Oh yeah, it's that good. <span class="text-muted">See for yourself.</span></h2>
-        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
-      </div>
-      <div class="col-md-5 order-md-1">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <div class="row featurette">
-      <div class="col-md-7">
-        <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">Checkmate.</span></h2>
-        <p class="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
-      </div>
-      <div class="col-md-5">
-        <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
-
-      </div>
-    </div>
-
-    <hr class="featurette-divider">
-
-    <!-- /END THE FEATURETTES -->
-
-  </div><!-- /.container -->
-
-
-  <!-- FOOTER -->
   <footer class="container">
     <p class="float-end"><a href="#">Back to top</a></p>
-    <p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+    <p>&copy; Rocco Cappolella 2025&middot; <a href="#">
   </footer>
 </main>
 

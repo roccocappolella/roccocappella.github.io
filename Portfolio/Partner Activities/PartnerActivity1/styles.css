@@ -1,0 +1,67 @@
+form {
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin: 20px;
+    padding: 20px 40px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px 0px #ccc;
+}
+
+label, input, select, textarea, button {
+    width: 100%;
+    margin-top: 10px;
+}
+
+input, select, textarea {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #f8f8f8;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b22222;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav, main {
+    padding: 20px;
+    margin: 10px;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+nav {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
